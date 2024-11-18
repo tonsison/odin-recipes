@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background: rgb(235, 224, 203);
   font-family: Arial, Helvetica, sans-serif;
@@ -6,10 +10,25 @@ body{
 h1{
   text-align: center;
   background: rgb(214, 187, 171);
+  border: 5px solid rgba(192, 133, 25, 0.541);
+  padding: 10px;
 }
 
 img{
   display: block;
+  border: 20px solid rgba(5, 3, 1, 0.849);
   margin-right: auto;
   margin-left: auto;
+}
+
+div{
+  background: rgb(134, 95, 21);
+  color: white;
+  padding: 1px;
+  padding-left: 20px;
+  margin: 10px auto;
+}
+
+.return-link{
+  background: rgba(182, 141, 66, 0.774);
 }
